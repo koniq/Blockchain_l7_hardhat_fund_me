@@ -5,3 +5,4 @@ yarn add --dev hardhat
 yarn hardhat init
 yarn add solhint--dev
 yarn solhint --init
+yarn add --dev --exact prettier
