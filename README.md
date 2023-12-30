@@ -9,9 +9,8 @@ yarn add --dev --exact prettier
 yarn add @chainlink/contracts
 yarn add hardhat-deploy --dev
 yarn add --dev  @nomiclabs/hardhat-ethers hardhat-deploy-ethers ethers
-
-
-
-
+yarn add --dev dotenv
 
 yarn hardhat deploy --tags mocks
+yarn hardhat deploy
+yarn hardhat deploy --network sepolia
